@@ -1,0 +1,13 @@
+from karel.stanfordkarel import *
+
+def main():
+    """ Picks up beepers in current spot until there are none left."""
+    # Because there is an unknown amount of beepers to pick up, use a while-loop to pick until all beepers are gone
+    while beepers_present():
+        pick_beeper()
+
+
+# There is no need to edit code beyond this point
+
+if __name__ == '__main__':
+    main()
