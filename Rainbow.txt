@@ -1,0 +1,28 @@
+"""
+File: Rainbow.py
+------------------------------
+Karel makes a rainbow!
+"""
+
+from karel.stanfordkarel import *
+
+def main():
+    """
+    Karel paints the squares Red, Orange, Yellow, Green, and Blue in order. Karel ends on an unpainted square in column 6.
+    """
+    paint_corner('Red')
+    move()
+    paint_corner('Orange')
+    move()
+    paint_corner('Yellow')
+    move()
+    paint_corner('Green')
+    move()
+    paint_corner('Blue')
+    move()
+
+
+# There is no need to edit code beyond this point
+
+if __name__ == '__main__':
+    main()
