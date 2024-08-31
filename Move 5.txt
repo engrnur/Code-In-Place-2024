@@ -1,0 +1,13 @@
+from karel.stanfordkarel import *
+
+def main():
+    """ Moves forward 5 times """
+    # Since we are moving forward a known number of times, we can use a for-loop to repeat move()
+    for i in range(5):
+        move()
+
+
+# There is no need to edit code beyond this point
+
+if __name__ == '__main__':
+    main()
