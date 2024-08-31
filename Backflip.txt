@@ -1,0 +1,13 @@
+from karel.stanfordkarel import *
+
+def main():
+    """ Makes Karel do a sick backflip!! """
+    # Since we are turning a known number of times, we can use a for-loop to repeat turn_left()
+    for i in range(4):
+        turn_left()
+
+
+# There is no need to edit code beyond this point
+
+if __name__ == '__main__':
+    main()
