@@ -1,0 +1,9 @@
+def main():
+    animal = input("What's your favorite animal? ")  # The extra space at the end of input prompt makes user input spaced apart from the question which looks a bit nicer :)
+    print("My favorite animal is also " + animal + "!")
+
+
+# There is no need to edit code beyond this point
+
+if __name__ == '__main__':
+    main()
