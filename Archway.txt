@@ -1,0 +1,31 @@
+from karel.stanfordkarel import *
+
+from karel.stanfordkarel import *
+
+def main():
+    """
+    Karel starts facing East to the left of the archway and ends facing East to the right of it.
+    """
+    turn_left()  # Face North
+    move_three_times()  # Move up the arch
+    turn_right()  # Face East
+    move_three_times()  # Move across the arch
+    turn_right()  # Face South
+    move_three_times()  # Move down the arch
+    turn_left()  # Face East
+
+
+def move_three_times():
+    for i in range(3):
+        move()
+
+
+def turn_right():
+    for i in range(3):
+        turn_left()
+
+
+# There is no need to edit code beyond this point
+
+if __name__ == '__main__':
+    main()
